@@ -1,0 +1,12 @@
+Relative Positioning:
+
+Definition: When an element is positioned relative to its normal position in the document flow.
+Reference Point: The element is moved relative to its normal position, and the reference point is the element's normal position.
+Effect on Other Elements: The space occupied by the element in its normal position is preserved, and other elements on the page are not affected by the element's positioning.
+
+
+Absolute Positioning:
+
+Definition: When an element is positioned relative to its nearest positioned ancestor (an ancestor with a position value other than static) or to the initial containing block if no positioned ancestor is found.
+Reference Point: The element is removed from the normal document flow, and its position is determined by its nearest positioned ancestor or the initial containing block.
+Effect on Other Elements: The space occupied by the element in its normal position is collapsed, and other elements may overlap the absolutely positioned element.
